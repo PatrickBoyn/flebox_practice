@@ -1,8 +1,10 @@
+/* There are only four of these, so they are id's, not classes. */
 #one{
     background-color: #AA2255;
     color:white;
 }
 #two{
+    /* I believe if you have a light background, you should use a dark font color. */
     background-color:#55FFCC;
 }
 #three{
@@ -11,8 +13,10 @@
 }
 #four{
     background-color:#00CC22;
+    color:white;
 }
 .container{
+    /* Display flex puts the children in a row instead of a column. */
     display:flex;
     border:13px solid #3255AA;
     font-size:80px;
