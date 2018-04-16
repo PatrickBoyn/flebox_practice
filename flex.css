@@ -4,21 +4,21 @@
 .one{
     background-color: #AA2255;
     color:white;
-    width:300px;
 }
 .two{
     /* I believe if you have a light background, you should use a dark font color. */
     background-color:#55FFCC;
-    width:300px;
 }
 .three{
     background-color:#0088;
     color:white;
-    width:300px;
 }
 .four{
     background-color:#00CC22;
     color:white;
+}
+/* I realized I could do the same thing with a seperate class and cut down on the code. */
+.box{
     width:300px;
 }
 .container{
