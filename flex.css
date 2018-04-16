@@ -18,6 +18,8 @@
 .container{
     /* Display flex puts the children in a row instead of a column. */
     display:flex;
+    /* Row does nothing because it is the default value of display flex. */
+    flex-direction:row;
     border:13px solid #3255AA;
     font-size:80px;
 }
