@@ -19,18 +19,20 @@
 }
 /* I realized I could do the same thing with a seperate class and cut down on the code. */
 .box{
-    width:300px;
+    /* width:300px; */
 }
 .container{
     /* Display flex puts the children in a row instead of a column. */
     display:flex;
     /* Row does nothing because it is the default value of display flex. */
-    flex-direction:row;
+    /* flex-direction:row; */
     /* flex-wrap:wrap-reverse; */
+    /* Flex end, makes everything move to the right side assuming there is space for it to do so. */
+    justify-content:flex-end;
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
-    width:800px;
+    width:1000px;
     text-align:center;
 }
 .container2{
@@ -44,5 +46,6 @@
     border:13px solid #3255AA;
     font-size:80px;
     text-align:center;
+    width:800px;
     /* height:200px; */
 }
