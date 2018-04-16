@@ -29,8 +29,8 @@
 .container2{
     /* Display flex puts the children in a row instead of a column. */
     display:flex;
-    /* Column makes everything go up and down from top to bottom and fills out the parent. */
-    flex-direction:column;
+    /* Column reverse makes everything go up and down from bototm to top and fills out the parent. */
+    flex-direction:column-reverse;
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
