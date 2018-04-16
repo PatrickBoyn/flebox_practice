@@ -25,3 +25,12 @@
     border:13px solid #3255AA;
     font-size:80px;
 }
+.container2{
+    /* Display flex puts the children in a row instead of a column. */
+    display:flex;
+    /* Row reverse makes things go backwards and start from the right. */
+    flex-direction:row-reverse;
+    margin-top:5px;
+    border:13px solid #3255AA;
+    font-size:80px;
+}
