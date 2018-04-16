@@ -1,20 +1,25 @@
 /* I decided it would be easier for me to see the difference if I had one to show the default
     and the other to show the difference. */
+    /* Changing the width does not act in the normal way in flexbox. */
 .one{
     background-color: #AA2255;
     color:white;
+    width:300px;
 }
 .two{
     /* I believe if you have a light background, you should use a dark font color. */
     background-color:#55FFCC;
+    width:300px;
 }
 .three{
     background-color:#0088;
     color:white;
+    width:300px;
 }
 .four{
     background-color:#00CC22;
     color:white;
+    width:300px;
 }
 .container{
     /* Display flex puts the children in a row instead of a column. */
@@ -24,6 +29,7 @@
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
+    width:300px;
     text-align:center;
 }
 .container2{
