@@ -26,7 +26,7 @@
     display:flex;
     /* Row does nothing because it is the default value of display flex. */
     flex-direction:row;
-    flex-wrap:wrap-reverse;
+    /* flex-wrap:wrap-reverse; */
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
@@ -39,10 +39,10 @@
     /* Column reverse makes everything go up and down from bototm to top and fills out the parent. */
     flex-direction:column-reverse;
     /* In order to get column to work, you have to have a height smaller than the column height. */
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
     text-align:center;
-    height:200px;
+    /* height:200px; */
 }
