@@ -1,17 +1,18 @@
-/* There are only four of these, so they are id's, not classes. */
-#one{
+/* I decided it would be easier for me to see the difference if I had one to show the default
+    and the other to show the difference. */
+.one{
     background-color: #AA2255;
     color:white;
 }
-#two{
+.two{
     /* I believe if you have a light background, you should use a dark font color. */
     background-color:#55FFCC;
 }
-#three{
+.three{
     background-color:#0088;
     color:white;
 }
-#four{
+.four{
     background-color:#00CC22;
     color:white;
 }
@@ -20,6 +21,7 @@
     display:flex;
     /* Row does nothing because it is the default value of display flex. */
     flex-direction:row;
+    margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
 }
