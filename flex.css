@@ -26,10 +26,11 @@
     display:flex;
     /* Row does nothing because it is the default value of display flex. */
     flex-direction:row;
+    flex-wrap:wrap;
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
-    width:300px;
+    width:800px;
     text-align:center;
 }
 .container2{
