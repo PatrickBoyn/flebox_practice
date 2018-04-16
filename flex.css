@@ -27,8 +27,8 @@
     /* Row does nothing because it is the default value of display flex. */
     /* flex-direction:row; */
     /* flex-wrap:wrap-reverse; */
-    /* Flex center, makes everything move to the center side assuming there is space for it to do so. */
-    justify-content:center;
+    /* space between , makes everything move around depending on the white space and puts the white space between the elements. */
+    justify-content:space-between;
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
