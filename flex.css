@@ -24,6 +24,7 @@
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
+    text-align:center;
 }
 .container2{
     /* Display flex puts the children in a row instead of a column. */
@@ -33,4 +34,5 @@
     margin-top:5px;
     border:13px solid #3255AA;
     font-size:80px;
+    text-align:center;
 }
