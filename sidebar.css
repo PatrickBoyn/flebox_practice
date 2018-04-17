@@ -12,12 +12,16 @@ ul{
 }
 li{
     cursor:pointer;
+    padding-top:15px;
+    padding-bottom:5px;
 }
 .container{
-    width:15vw;
+    width:12vw;
     height:100vh;
     display:flex;
+    flex-direction:column-reverse;
+    justify-content:flex-start;
 }
 .section{
-    padding-top:50px;
+    padding-top:78vh;
 }
