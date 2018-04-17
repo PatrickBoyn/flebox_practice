@@ -19,9 +19,10 @@ li:hover{
     color:gold
 }
 .container{
-    width:12vw;
+    width:20vw;
     height:100vh;
     display:flex;
+    flex-wrap:wrap;
     flex-direction:column-reverse;
     justify-content:flex-start;
 }
